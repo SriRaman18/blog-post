@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  margin: 30px 0;
+}
+
+form {
+  width: 50vw;
+  justify-content: center;
+  align-items: center;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+a {
+  text-decoration: none;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 100px;
+  border: 1px solid black;
+  padding: 5px;
+}
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 10vh;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.addPost {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li a{
+  font-size: 20px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+li {
+  margin: 0 10px;
+  position: relative;
+}
+h2 {
+  margin-top: 20px;
+}
+
+.display,
+h1 {
+  font-size: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.display {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.postDiv {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 25px;
+}
+.postData {
+  margin: 0 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  border: 2px solid black;
+
+  align-items: center;
+}
+
+.buttons-btn {
+  width: 250px;
+  height: 40px;
+  font-size: 30px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.buttons-btn:hover {
+  background-color: palevioletred;
+}
+
+.view {
+  width: 100vw;
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 100px 200px;
+}
+.detail {
+  width: 600px;
+  height: 500px;
+  display: flex;
+  padding: 20px;
+  
+  flex-direction: column;
+  background-color: rgb(51, 134, 217);
+  color: rgb(255, 255, 255);
+  justify-content: center;
+  border: 2px solid rgb(0, 0, 0);
+}
+small{
+  font-size: 50px;
+  align-items: center;
+  text-align: center;
+}
+.view,
+h1 {
+  margin: 50px 0;
+}
+.detail > * {
+  margin: 20px 0;
+}
+
+
+.section {
+  display: none;
+}
+
+.section.active-page {
+  display: flex;
+}
